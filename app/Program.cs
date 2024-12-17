@@ -5,7 +5,7 @@ namespace app
     class Program
     {
         /*
-            The entry method serves of the application. It reads input from the user and outputs the processed message to the console.
+            The entry method of the application. It reads input from the user and outputs the processed message to the console.
         */
         public static void Main(String[] args)
         {
