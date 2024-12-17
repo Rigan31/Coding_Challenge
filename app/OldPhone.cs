@@ -1,3 +1,7 @@
+/*
+    Represents an old phone with a keypad that consists of buttons. This class allows adding or removing buttons and retrieving letters based on the digit and press count.
+*/
+
 public class OldPhone
 {
     private Dictionary<char, Button> KeyPad;

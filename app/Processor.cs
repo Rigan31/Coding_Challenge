@@ -14,6 +14,7 @@ public class Processor
         InitializePhone();
     }
 
+    /* Initializes the phone's keypad with predefined button mappings. */
     private void InitializePhone()
     {
         Phone.InsertButton('1', "&'(");
@@ -41,12 +42,14 @@ public class Processor
         if (count > 0 && Char.IsDigit(digit))
         {
             char letter = Phone.GetLetter(digit, count);
-            if (letter != '\0'){
+            if (letter != '\0')
+            {
                 Message.Append(letter);
             }
         }
     }
 
+    /* Processes the input string and generates the corresponding message. */
     public String ProcessInput(String input)
     {
         if (input.Length == 0) return String.Empty;
