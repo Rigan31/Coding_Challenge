@@ -4,7 +4,11 @@
 
 This project simulates the functionality of an **old mobile phone keypad**, where users can input letters by pressing numeric keys multiple times.
 
----
+## Folder Structure
+
+- **`app/`**: Contains the main functionality of the Old Phone message processing system, including the classes that simulate the behavior of an old phone, message input, and processing.
+  
+- **`app.Tests/`**: Contains unit tests for the `Processor` class. These tests ensure the correct functionality of the message processing system by verifying various cases of input and output.
 
 ## Features
 
